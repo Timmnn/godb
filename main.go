@@ -10,5 +10,6 @@ func createDB(name string, data_path string) {
 	if err != nil {
 		panic(err)
 	}
+	
 	defer file.Close()
 }
