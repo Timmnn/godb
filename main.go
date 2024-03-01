@@ -12,4 +12,3 @@ func createDB(name string, data_path string) {
 	}
 	defer file.Close()
 }
-
